@@ -1,0 +1,15 @@
+N = 150
+batch_size = 50
+n_epochs = 10
+alpha = 1e-4
+gamma = 0.99
+gae_lambda = 0.95
+policy_clip = 0.1
+entropy_coef = 0.01
+adam_epsilon = 1e-5
+learning_rate_agent = 2.5e-4
+max_grad_norm = 0.5
+num_games = 100
+vf_coef = 0.5
+embedding_dim = 256
+memory_size = 64
